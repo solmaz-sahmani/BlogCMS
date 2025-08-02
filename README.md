@@ -26,8 +26,8 @@ A simple blog system built with Django and Docker, featuring:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/solmaz-sahmani/Blog-CMS.git
-cd Blog-CMS
+git clone https://github.com/solmaz-sahmani/BlogCMS.git
+cd blogcms
 ```
 ---
 
