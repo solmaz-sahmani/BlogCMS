@@ -1,0 +1,15 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+<h2>All Posts</h2>
+{% for post in posts %}
+  <div style="margin-bottom: 20px;">
+    <h3><a href="{% url 'post_detail' slug=post.slug %}">{{ post.title }}</a></h3>
+    <p><strong>By:</strong> {{ post.author }} | <strong>Category:</strong> {{ post.category }}</p>
+    <p>{{ post.content|truncatechars:100 }}</p>
+    <hr>
+  </div>
+{% empty %}
+  <p>No posts found.</p>
+{% endfor %}
+{% endblock %}
