@@ -13,7 +13,7 @@ A simple blog system built with Django and Docker, featuring:
 
 ## ⚙️ Tech Stack
 
-- Python 3.10
+- Python 3.11
 - Django 4.x
 - Gunicorn (for production-ready server)
 - Docker & Docker Compose
